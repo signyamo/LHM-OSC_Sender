@@ -49,9 +49,4 @@ Copyright (c) 2025 しぐにゃも/Signiyamo
 https://github.com/signyamo/LHM-OSC_Sender/
 
 
-//ーーーーー
 
-
-【更新情報】
-
-2025/08/17 Git Hubでプログラム公開
