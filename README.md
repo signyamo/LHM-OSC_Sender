@@ -32,7 +32,7 @@ MIT License
 
 Copyright (c) 2025 しぐにゃも/Signiyamo
 
-https://github.com/signyamo/LHM-OSC_Sender/blob/main/License
+https://github.com/signyamo/LHM-OSC_Sender/
 
 
 //ーーーーー
