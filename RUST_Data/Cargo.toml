@@ -1,5 +1,5 @@
 [package]
-name = "lhm_osc_rust_app"
+name = "LHM-OSC_Sender"
 version = "0.1.0"
 edition = "2024"
 
