@@ -26,6 +26,16 @@ Chat GPTが作ったコードを元に改造して作りました。
 //ーーーーー
 
 
+MIT License
+
+Copyright (c) 2025 しぐにゃも/Signiyamo
+
+https://github.com/signyamo/LHM-OSC_Sender.git
+
+
+//ーーーーー
+
+
 【更新情報】
 
 2025/08/17 Git Hubでプログラム公開
