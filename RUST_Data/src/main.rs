@@ -264,11 +264,11 @@ impl eframe::App for MyApp {
 
 
 
-            // GUI警告表示の条件分岐（温度）
+            // 温度警告表示の条件分岐
             fn temp_bg_color(temp: f32) -> Option<Color32> {
-                if temp >= 60.0 {
+                if temp >= 90.0 {
                     Some(Color32::from_rgb(0x9D, 0x27, 0x27))
-                } else if temp >= 40.0 {
+                } else if temp >= 70.0 {
                     Some(Color32::from_rgb(0x7B, 0x63, 0x00))
                 } else {
                     None // 通常時は背景色なし
@@ -276,11 +276,11 @@ impl eframe::App for MyApp {
             }
 
 
-            // GUI警告表示の条件分岐（使用率）
+            // 使用率警告表示の条件分岐
             fn usage_bg_color(usage: f32) -> Option<Color32> {
-                if usage >= 90.0 {
+                if usage >= 60.0 {
                     Some(Color32::from_rgb(0x9D, 0x27, 0x27)) // 赤
-                } else if usage >= 70.0 {
+                } else if usage >= 40.0 {
                     Some(Color32::from_rgb(0x7B, 0x63, 0x00)) // 黄
                 } else {
                     None
@@ -492,7 +492,7 @@ fn main() -> Result<(), eframe::Error> {
 
     // アプリ名
     eframe::run_native(
-        "LHM OSC Sender v1",
+        "LHM OSC Sender",
         options,
         Box::new(|_cc| Box::new(MyApp::default())),
     )
