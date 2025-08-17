@@ -8,7 +8,9 @@ VRChat上でのOSC利用を想定して作成。
 //ーーーーー
 
 
-右側の「Release」にある「LHM-OSC_Sender」より.exeファイルをダウンロードできます。
+.exeのダウンロード法
+
+右側の「Release」にある「LHM-OSC_Sender」より.exeファイルをダウンロードできます。→
 
 
 //ーーーーー
