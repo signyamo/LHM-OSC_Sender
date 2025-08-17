@@ -8,9 +8,17 @@ VRChat上でのOSC利用を想定して作成。
 //ーーーーー
 
 
+右側の「Release」にある「LHM-OSC_Sender」より.exeファイルをダウンロードできます。
+
+
+//ーーーーー
+
+
 使用したProgram言語は「RUST」です。
 
-こちらの記事などを見ながらRUSTの「cargo run」で動かせるようにしてください。
+ネットから取得した.exeを実行したくない方はこちらの記事などを見ながらRUSTを導入。
+
+「cargo run」で動かしてください。
 
 [【RUST言語】0から環境構築してHalloWorldと表示する方法](https://signyamo.blog/rust_hallo-world/)
 
